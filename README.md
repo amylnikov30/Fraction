@@ -6,22 +6,22 @@ Easy-to-use Fraction Library for C++
 
 `Fraction` class:
 
-###Constructors:
-`Fraction()`
-`Fraction(float numerator, float denominator)`
-`Fraction(const char* s)`
-`Fraction(const Fraction& other)`
-Constructor with implicit cast from `float` will be added later
-
-###Operators
-`operator +(Fraction& other)`
-`operator -(Fraction& other)`
-`operator *(Fraction& other)`
-`operator /(Fraction& other)`
-String-string multiplication in fraction form will be added later
-
-###Methods
-`void Reduce()`
-`std::string ToString()`
-`std::string InTermsOfPI(float radians)`
-`static Fraction* FromString(const char* s)`
+##Constructors:
+`Fraction()` </br>
+`Fraction(float numerator, float denominator)`</br>
+`Fraction(const char* s)`</br>
+`Fraction(const Fraction& other)`</br>
+Constructor with implicit cast from `float` will be added later</br>
+</br>
+##Operators
+`operator +(Fraction& other)`</br>
+`operator -(Fraction& other)`</br>
+`operator *(Fraction& other)`</br>
+`operator /(Fraction& other)`</br>
+String-string multiplication in fraction form will be added later</br>
+</br>
+##Methods</br>
+`void Reduce()`</br>
+`std::string ToString()`</br>
+`std::string InTermsOfPI(float radians)`</br>
+`static Fraction* FromString(const char* s)`</br>
