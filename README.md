@@ -27,3 +27,19 @@ Easy-to-use Fraction Library for C++
 `std::string ToString()`</br>
 `std::string InTermsOfPI(float radians)`</br>
 `static Fraction* FromString(const char* s)`</br>
+
+## Examples
+
+```cpp
+#include <iostream>
+#include <string>
+#include "Fraction.h"
+
+Fraction a = Fraction(1, 2);
+Fraction b = "1/4";
+
+std::cout << a * b << std::endl;
+```
+
+### Result:
+```1/8```
