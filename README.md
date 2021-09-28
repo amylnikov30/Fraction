@@ -4,7 +4,7 @@ Easy-to-use Fraction Library for C++
 
 ## Documentation
 
-`Fraction` class:
+### `Fraction` class:
 
 ### Constructors:</br>
 `Fraction()` </br>
