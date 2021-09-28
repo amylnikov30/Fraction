@@ -18,7 +18,7 @@ Operators:</br>
 `operator -(Fraction& other)`</br>
 `operator *(Fraction& other)`</br>
 `operator /(Fraction& other)`</br>
-String-string multiplication in fraction form will be added later</br>
+`const char*` by `const char*` multiplication in fraction form will be added later</br>
 </br>
 Methods:</br>
 `void Reduce()`</br>
