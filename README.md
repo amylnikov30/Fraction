@@ -32,7 +32,6 @@ Easy-to-use Fraction Library for C++
 
 ```cpp
 #include <iostream>
-#include <string>
 #include "Fraction.h"
 
 int main()
