@@ -11,14 +11,14 @@ Easy-to-use Fraction Library for C++
 `Fraction(float numerator, float denominator)`</br>
 `Fraction(const char* s)`</br>
 `Fraction(const Fraction& other)`</br>
-#### Constructor with implicit cast from `float` will be added later ####</br>
+- Constructor with implicit cast from `float` will be added later</br>
 </br>
 ### Operators:</br>
 `operator +(Fraction& other)`</br>
 `operator -(Fraction& other)`</br>
 `operator *(Fraction& other)`</br>
 `operator /(Fraction& other)`</br>
-#### Multiplication of `const char*` by `const char*` in fraction form will be added later</br>
+- Multiplication of `const char*` by `const char*` in fraction form will be added later</br>
 </br>
 ### Methods:</br>
 `void Reduce()`</br>
