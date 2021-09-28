@@ -18,7 +18,7 @@ Easy-to-use Fraction Library for C++
 `operator -(Fraction& other)`</br>
 `operator *(Fraction& other)`</br>
 `operator /(Fraction& other)`</br>
-#### `const char*` by `const char*` multiplication in fraction form will be added later</br>
+#### Multiplication of `const char*` by `const char*` in fraction form will be added later</br>
 </br>
 ### Methods:</br>
 `void Reduce()`</br>
