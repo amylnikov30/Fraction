@@ -35,10 +35,13 @@ Easy-to-use Fraction Library for C++
 #include <string>
 #include "Fraction.h"
 
-Fraction a = Fraction(1, 2);
-Fraction b = "1/4";
+int main()
+{
+    Fraction a = Fraction(1, 2);
+    Fraction b = "1/4";
 
-std::cout << a * b << std::endl;
+    std::cout << a * b << std::endl;
+}
 ```
 
 ### Result:
