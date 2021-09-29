@@ -19,7 +19,6 @@ Easy-to-use Fraction Library for C++ (C# implementation will be added later in t
 `operator -(Fraction& other)`</br>
 `operator *(Fraction& other)`</br>
 `operator /(Fraction& other)`</br>
-<<<<<<< HEAD
 - Multiplication of const char* by const char* can be used but an implicit Fraction cast must be used. See [Examples](#Examples) for more details</br>
 
 
