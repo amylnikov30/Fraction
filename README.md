@@ -1,5 +1,5 @@
 # Fraction
-Easy-to-use Fraction Library for C++
+Easy-to-use Fraction Library for C++ (C# implementation will be added later in the C# Branch)
 
 
 ## Documentation
