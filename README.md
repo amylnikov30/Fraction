@@ -19,7 +19,7 @@ Easy-to-use Fraction Library for C++
 `operator -(Fraction& other)`</br>
 `operator *(Fraction& other)`</br>
 `operator /(Fraction& other)`</br>
-- Multiplication of `const char*` by `const char*` in fraction form will be added later</br>
+- Multiplication of const char* by const char* can be used but an implicit Fraction cast must be used. See [Examples](#Examples) for more details</br>
 </br>
 
 ### Methods:</br>
@@ -38,10 +38,17 @@ int main()
 {
     Fraction a = Fraction(1, 2);
     Fraction b = "1/4";
+    Fraction c = 2.f;
 
     std::cout << a * b << std::endl;
+    std::cout << b * c << std::endl;
+    std::cout << (Fraction)"1/4" + (Fraction)"1/2" << std::endl;
 }
 ```
 
 ### Result:
-```1/8```
+```bash
+1/8
+1/2
+3/4
+```
