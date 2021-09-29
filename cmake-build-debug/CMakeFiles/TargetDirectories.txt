@@ -1,0 +1,3 @@
+D:/C++/Fraction/cmake-build-debug/CMakeFiles/Fraction.dir
+D:/C++/Fraction/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C++/Fraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
